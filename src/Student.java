@@ -1,12 +1,11 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class Student {
     private String firstName;
     private String lastName;
     private int gradYear;
     private int testScoreCount;
-    List<Double> accumulatedTestScores = new ArrayList<>();
+    ArrayList<Double> accumulatedTestScores = new ArrayList<>();
 
     public Student(String firstName, String lastName, int gradYear) {
         this.firstName = firstName;
