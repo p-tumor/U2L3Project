@@ -1,17 +1,14 @@
 public class Letter {
-    /**
-     * Prints out a complete letter by printing the greeting,
-     * Followed by the special message, followed by the closing
-     */
 
-    public void writeLetter() {
-        greeting();
+
+    public void writeLetter(String name) {
+        greeting(name);
         specialMessage();
         closing();
     }
 
-    public void greeting() {
-        System.out.println("Hello, friend!");
+    public void greeting(String name) {
+        System.out.printf("Hello %s!\n",name);
     }
 
     public void specialMessage() {
